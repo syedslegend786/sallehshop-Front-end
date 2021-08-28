@@ -1,0 +1,44 @@
+.filter{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter_input{
+    flex: 1;
+}
+.filter_input input{
+    width: 95%;
+    margin: auto,
+}
+
+.checkbox__div{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+}
+.checkbox__div button{
+    margin-left: 10px;
+}
+.loadmore{
+    width: fit-content !important;
+    margin: auto;
+}
+.filter__selects{
+    flex: 0.9;
+}
+
+@media screen and (max-width: 991px) {
+    .spans{
+        display: none;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .filter__selects{
+        flex: 1;
+    }
+  }
+
+
+

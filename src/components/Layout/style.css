@@ -1,0 +1,34 @@
+
+.cart_container{
+    position: relative;
+}
+.cart_badge{
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    font-size: medium;
+}
+.layout{
+    height: 100vh;
+    border: 1px solid #F2F2F2;
+    background-color:	#FFFFFF;
+}
+
+.footer{
+    background-color:#157347;
+    color: white;
+}
+.about h1{
+border-bottom: 2px solid grey;
+}
+.footer__catagory h1::after{
+content: '';
+height: 5px;
+color: red;
+width: 30px;
+}

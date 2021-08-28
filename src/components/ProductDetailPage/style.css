@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px){
+    .card__section{
+        margin-top: 20px !important; 
+    }
+}

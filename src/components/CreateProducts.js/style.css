@@ -1,0 +1,49 @@
+.product_left{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: auto;    
+    border: 1px solid lightgrey;
+}
+.product_left input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.product_left input::before{
+    content: '+';
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 12rem;
+    vertical-align: center;
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(252, 252, 118);
+}
+.product_left button{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: none;
+    outline: none;
+    color: crimson;
+    padding: 5px 10px;
+    border-radius: 50%;
+    z-index: 100;
+    background: white;
+    font-weight: 900;
+    font-size: small;
+}
+.product_left img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    display: block;
+}
